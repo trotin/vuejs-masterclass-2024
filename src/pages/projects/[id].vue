@@ -8,5 +8,7 @@ const route = useRoute();
 <template>
     <div>
         <h1>Project {{ route.params?.id }}</h1>
+        <RouterLink to="/projects">Back Project List</RouterLink>
+        <hr />
     </div>
 </template>
