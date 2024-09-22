@@ -9,10 +9,10 @@
         <hr />
         <ul>
             <li>
-                <RouterLink to="/projects/Project 1">Project 1</RouterLink>
+                <RouterLink :to="{ name: '/projects/[id]', params: { id: 1 } }">Project 1</RouterLink>
             </li>
             <li>
-                <RouterLink to="/projects/Project 2">Project 2</RouterLink>
+                <RouterLink :to="{ name: '/projects/[id]', params: { id: 2 } }">Project 2</RouterLink>
             </li>
         </ul>
     </div>
